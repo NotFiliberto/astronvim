@@ -38,6 +38,7 @@ return {
         softtabstop = 4,
         shiftwidth = 4,
         expandtab = true,
+        incsearch = true, -- Show search results while typing
         fillchars = { eob = "~" },
       },
       g = { -- vim.g.<key>
