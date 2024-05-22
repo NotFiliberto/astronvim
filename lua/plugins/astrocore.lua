@@ -38,6 +38,7 @@ return {
         softtabstop = 4,
         shiftwidth = 4,
         expandtab = true,
+        fillchars = { eob = "~" },
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
