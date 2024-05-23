@@ -39,7 +39,9 @@ return {
         shiftwidth = 4,
         expandtab = true,
         incsearch = true, -- Show search results while typing
-        fillchars = { eob = "~" },
+        fillchars = {
+          eob = "~", -- Char at the end of the file
+        },
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
