@@ -10,7 +10,7 @@ local wk = require "which-key"
 --
 
 wk.register({
-  g = {
-    H = { "<cmd>Gitsigns toggle_current_line_blame<cr>", "Toggle current line blame" },
-  },
+	g = {
+		H = { "<cmd>Gitsigns toggle_current_line_blame<cr>", "Toggle current line blame" },
+	},
 }, { prefix = "<leader>" })
