@@ -1,4 +1,4 @@
-local wk = require "which-key"
+-- local wk = require "which-key"
 -- As an example, we will create the following mappings:
 --  * <leader>ff find files
 --  * <leader>fr show recent files
@@ -9,8 +9,8 @@ local wk = require "which-key"
 -- and hide <leader>1
 --
 
-wk.register({
-	g = {
-		H = { "<cmd>Gitsigns toggle_current_line_blame<cr>", "Toggle current line blame" },
-	},
-}, { prefix = "<leader>" })
+-- wk.register({
+-- 	g = {
+-- 		H = { "<cmd>Gitsigns toggle_current_line_blame<cr>", "Toggle current line blame" },
+-- 	},
+-- }, { prefix = "<leader>" })
